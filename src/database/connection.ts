@@ -7,8 +7,8 @@ const connection = knex({
     port: 5432,
     user: 'root',
     password: 'root',
-    database: 'ecoleta'
-  }
+    database: 'ecoleta',
+  },
 });
 
 export default connection;
