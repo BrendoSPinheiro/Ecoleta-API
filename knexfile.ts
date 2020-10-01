@@ -7,9 +7,9 @@ module.exports = {
     port: 5432,
     user: 'root',
     password: 'root',
-    database: 'ecoleta'
+    database: 'ecoleta',
   },
   migrations: {
-    directory: path.resolve(__dirname, 'src', 'database', 'migrations')
-  }
-}
+    directory: path.resolve(__dirname, 'src', 'database', 'migrations'),
+  },
+};
